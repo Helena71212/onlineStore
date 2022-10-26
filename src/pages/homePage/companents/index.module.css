@@ -1,0 +1,57 @@
+.wrapperHome{
+   max-width: 1280px;
+   margin: 0 auto;
+   align-items: center; 
+   position: relative;
+   height: 75vh;
+   min-height: 700px;
+   max-height: 743px;
+   max-width: 1310px;
+   width: 100%;
+   overflow: hidden;
+}
+
+.homeTitle {
+   margin-left: 47%;
+   padding-top: 80px;
+   position: relative;
+   width: 52%;
+   text-align: right;}
+
+.homeTitle h1{
+   position: relative;
+    text-align: right;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.7px;
+    color: #474747;
+    font-size: calc( 37px + 33 * ((100vw - 375px) / 905) )
+}
+.homeTitle h1 span{
+   white-space: nowrap;
+}
+.homeTitle h2{
+   margin-top: 50px;
+   font-size: calc( 24px + 12 * ((100vw - 375px) / 905) );
+   font-family: "Open Sans",sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #5e5e5e;
+}
+.image {
+	position: absolute;
+    top: 0;
+    margin-left: 5px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top left;
+    object-position: top left;
+}
+.homeTitle p{
+   margin-top: 35px;
+   font-size: calc( 14px + 3 * ((100vw - 375px) / 905) );
+   opacity: 1;
+   color: #474747;
+}
