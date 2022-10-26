@@ -1,0 +1,21 @@
+.footerWrapper
+   {
+      margin: 0 auto;
+      max-width: 1280px;
+      padding:  0 10px;
+      background-color: rgb(218, 248, 243);;
+      overflow: hidden;
+      display: flex;
+      justify-content: space-between;
+      }
+
+      .footerImg{
+         height: 90px;
+      }
+
+      .headerTitle{
+         text-decoration: none;
+         font-size: 24px;
+         font-weight: bold;
+         color: #247CC0;
+       }

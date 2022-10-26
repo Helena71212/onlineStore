@@ -1,0 +1,10 @@
+.countButton{
+   display: flex;
+}
+.buttonCounter{
+   font-size: 20px;
+   cursor: pointer;
+   border: none;
+   background-color: #fff;
+   width: 40px;
+}

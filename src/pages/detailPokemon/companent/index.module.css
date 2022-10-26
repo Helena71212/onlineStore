@@ -1,0 +1,67 @@
+.wrapper{
+   width: 1000px;
+   margin: 0 auto;
+   padding: 80px 15px 30px;
+}
+.mainContent{
+   display: flex;
+}
+
+.img{
+   height: 400px;
+   width: 400px;
+}
+.btnAddToCart{
+   margin-top: 20px;
+}
+.price{
+   margin-top: 20px;
+}
+.namePoke{
+   padding: 30px 0;
+   font-size: 40px;
+   font-weight: 600;
+   text-align: center;
+}
+.statContent{
+   height: 30px;
+   display: flex;
+   align-items: center;
+}
+.abilities{
+   margin-bottom: 20px;
+}
+.rightContent{
+   padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnAddToCart{
+   padding: 10px 105px;
+   margin-bottom: 10px;
+   font-family: "Montserrat",sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   color: #fff;
+   background-color: #00a8e2;
+   border: #00a8e2;
+   border-radius: 0.25em;
+}
+.btnAddToCart:hover {
+   background: #0083ad;
+}
+.btnAddToCart:active {
+   outline: none;
+   box-shadow: 0 0 0 3px #0d6efd;;
+}
