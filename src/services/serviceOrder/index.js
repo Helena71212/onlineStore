@@ -1,10 +1,9 @@
 import { api } from "../../api";
 
-
 const url = "/order";
 
-class ServiceOrder {
-   static instance = new ServiceOrder();
+class OrderService {
+  static instance = new OrderService();
 
   getOrder() {
     return api.get(url);
@@ -15,4 +14,4 @@ class ServiceOrder {
   }
 }
 
-export default ServiceOrder.instance;
+export default OrderService.instance;

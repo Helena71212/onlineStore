@@ -2,7 +2,7 @@ import CounterButton from "../../../components/counterButton";
 import ClearIcon from "@mui/icons-material/Clear";
 import styles from "./index.module.css";
 
-const Cart = ({ cart, onIncrementItem, onDecrementItem, onDeleteItem,handleCreateOrder,isLoading,id,quantity }) => {
+const Cart = ({ cart, onIncrementItem, onDecrementItem, onDeleteItem,handleCreateOrder }) => {
   return (
     <div className={styles.wrapper}>
       <h1 className={styles.pageTitle}>

@@ -8,10 +8,11 @@ import styles from "./index.module.css";
 const SignIn = ({
   formik,
  error,
+ touched,
  onClose,
  isAuth,
  isLoading,
-  handleSignUp,
+handleSignUp,
 
 }) => {
   return (
@@ -29,8 +30,7 @@ const SignIn = ({
               name="email"
               type="email"
               color={formik.errors.email ? "error" : "success"}
-              touched={formik.touched.email}
-              label={formik.touched.email && formik.errors.email? formik.errors.email : "Email"}
+              label={touched && error? formik.errors.email : "Email"}
               onChange={formik.handleChange}
               onBlur ={formik.handleBlur}
             />

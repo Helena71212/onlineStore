@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import useCart from "../../../hook/useCart";
 import Cart from "../component";
-import { createNewOrder } from "../thunks";
+import { createNewOrder, getOrders } from "../thunks";
 
 export const CartContainer = () => {
   const dispatch = useDispatch();
@@ -17,7 +17,7 @@ export const CartContainer = () => {
       createNewOrder(createNewOrder(otherCartFields))
     );
   };
-  
+
   
   return (
     <Cart

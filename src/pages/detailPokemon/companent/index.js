@@ -5,7 +5,7 @@ import useCart from "../../../hook/useCart";
 import styles from "./index.module.css";
 
 const DetailPokemon = ({ product, error }) => {
-  const { cart, addItem, deleteItem, incrementItem, decrementItem } = useCart();
+  const { cart, addItem} = useCart();
   return (
     <>
       {

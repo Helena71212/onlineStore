@@ -1,6 +1,5 @@
 import * as React from 'react';
 import MaterialPagination from '@mui/material/Pagination';
-import styles from "./index.module.css"
 
 
 const Pagination = ({currentPage,handlePageChange,isDisabled})=> {
@@ -14,7 +13,6 @@ const Pagination = ({currentPage,handlePageChange,isDisabled})=> {
       disabled={isDisabled}
       />
     </div>
-    
   );
 }
 export default Pagination;

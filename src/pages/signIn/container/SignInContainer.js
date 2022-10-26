@@ -55,7 +55,6 @@ const AuthContainer = () => {
   return (
     <SignIn
       formik={formik}
-      touched={formik.touched}
       onBlur={formik.handleBlur}
       error={formik.errors}
       isAuth={isAuth}

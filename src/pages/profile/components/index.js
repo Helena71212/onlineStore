@@ -1,15 +1,16 @@
 import startCase from "lodash/startCase";
+import styles from "./index.module.css"
 
 const Profile = ({ 
   userInfo, 
-  order, 
+  orders, 
   }) => {
   return (
-    <div>
-      <div>
+    <div className={styles.orderWrapper}>
+      <div className={styles.info}>
         <h2>Name & Email</h2>
         <div>
-          <div>
+          <div className={styles.personInfo}>
             <p>
               {userInfo.firstName} {userInfo.lastName}
             </p>
@@ -17,25 +18,9 @@ const Profile = ({
           </div>
         </div>
         <div>
-          <h1>Orders & Returns</h1>
+          <h2>Orders & Returns</h2>
           <div>
-            {order?.map((item) => (
-              <div key={item.id}>
-                <div>{startCase(item.name)}</div>
-                <div>
-                  <div>Quantity: {item.quantity}</div>
-                  <div>Unit price: {item.price}</div>
-                  <div>Total price: {item.quantity * item.price}</div>
-                </div>
-              </div>
-            ))}
-            <div>
-              Total price: ${" "}
-              {order?.reduce(
-                (result, item) => result + item.quantity * item.price,
-                0
-              )}
-            </div>
+           <p>Orders shown here</p>
           </div>
         </div>
       </div>
